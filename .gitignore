@@ -1,0 +1,19 @@
+#Java#
+.class
+
+#Package files#
+*.jar
+*.war
+*.ear
+
+#Target folder#
+target/*
+target/**
+**/target
+
+#External files#
+faces-config.NavData
+
+#XML files need to full name, because applicationcontext and other should be present into the project#
+nbactions.xml
+nb-configuration.xml
